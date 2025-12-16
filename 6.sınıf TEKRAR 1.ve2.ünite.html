@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peygamber ve İlahi Kitap İnancı - Soru & Cevap</title>
+  <style>
+    :root { --bg:#0b1220; --card:#121a2b; --text:#e9eefc; --muted:#a9b4d0; --line:#23304d; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji";
+           background: linear-gradient(180deg, #0b1220, #070b14); color: var(--text); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 16px 60px; }
+    h1 { font-size: 20px; margin: 0 0 6px; }
+    p.lead { margin: 0 0 18px; color: var(--muted); font-size: 13px; line-height: 1.4; }
+    .panel { background: rgba(18,26,43,.88); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+    details { border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,0.02); margin: 10px 0; overflow: hidden; }
+    summary { cursor: pointer; list-style: none; padding: 12px 14px; font-weight: 650; display: flex; gap: 10px; align-items: flex-start; }
+    summary::-webkit-details-marker { display: none; }
+    .qno { flex: 0 0 auto; width: 30px; height: 30px; border-radius: 10px; display: grid; place-items: center;
+           border: 1px solid var(--line); color: var(--muted); font-weight: 700; }
+    .qtext { flex: 1; }
+    .ans { padding: 0 14px 14px; color: var(--text); border-top: 1px solid var(--line); }
+    .ans p { margin: 10px 0 0; line-height: 1.55; }
+    .tag { display: inline-block; margin-top: 10px; font-size: 12px; color: var(--muted); }
+    .note { margin-top: 10px; padding: 10px 12px; border: 1px dashed var(--line); border-radius: 10px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+    .topbar { display:flex; gap:10px; align-items:center; justify-content: space-between; margin-bottom: 10px; }
+    .btns { display:flex; gap:10px; flex-wrap: wrap; }
+    button { background: #1a2540; color: var(--text); border: 1px solid var(--line); border-radius: 10px;
+             padding: 9px 10px; cursor:pointer; font-weight: 650; font-size: 13px; }
+    button:hover { filter: brightness(1.08); }
+    footer { margin-top: 14px; color: var(--muted); font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div>
+        <h1>Peygamber ve İlahi Kitap İnancı – Soru/Cevap (Tıkla Açılır)</h1>
+        <p class="lead">Her soruyu tıklayınca cevabı açılır. “Tümünü Aç/Kapat” düğmeleriyle hızlı kontrol yapabilirsiniz.</p>
+      </div>
+      <div class="btns">
+        <button type="button" onclick="toggleAll(true)">Tümünü Aç</button>
+        <button type="button" onclick="toggleAll(false)">Tümünü Kapat</button>
+      </div>
+    </div>
+
+    <div class="panel" id="qa">
+
+      <details>
+        <summary><span class="qno">1</span><span class="qtext">İnsanlara Allah tarafından aldığı mesajı iletmekle görevli kişi kimdir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Peygamber.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">2</span><span class="qtext">Nübüvvet ve risalet kavramları nedir? Ne anlama gelir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> <strong>Nübüvvet</strong>, peygamberlik (nebîlik) görevini; <strong>risalet</strong> ise elçilik (resûllük) görevini ifade eden kavramlardır.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">3</span><span class="qtext">İlk peygamber ve son peygamber kimlerdir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> İlk peygamber <strong>Hz. Âdem</strong>, son peygamber <strong>Hz. Muhammed (sav)</strong>.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">4</span><span class="qtext">Tebliğ görevi nedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Peygamberlerin Allah’tan (cc) aldıkları vahyi <strong>eksiksiz ve doğru şekilde insanlara iletmesi</strong>dir.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">5</span><span class="qtext">Kur'an'da ismi geçip peygamber olup olmadığı belli olmayan kişiler kimlerdir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> <strong>Hz. Lokman</strong>, <strong>Hz. Üzeyir</strong> ve <strong>Hz. Zülkarneyn</strong> (isimleri Kur’an’da geçer; peygamber olup olmadıkları kesin değildir).</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">6</span><span class="qtext">Kur'an hangi dildedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> <strong>Arapça</strong>.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">7</span><span class="qtext">Kur'an'da toplam kaç peygamber geçmektedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Kur’an’da ismi geçen peygamber sayısı <strong>25</strong>tir.</p>
+          <div class="note"><strong>Not:</strong> Kur’an’da ismi geçenlerle sınırlı olmayacak şekilde, başka peygamberlerin de gönderildiği bildirilir.</div>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">8</span><span class="qtext">Nebî ve Resûl nedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Kur’an’da peygamberler için kullanılan iki kavramdır: <strong>Resûl</strong> “elçi”, <strong>Nebî</strong> “haberci” anlamına gelir.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">9</span><span class="qtext">Hz. İbrahim, Hz. Musa, Hz. İsa, Hz. Salih, Hz. Süleyman'ın mucizeleri nelerdir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong></p>
+          <p>• <strong>Hz. İbrahim:</strong> Ateşin onu yakmaması.<br>
+             • <strong>Hz. Musa:</strong> Asasının yılana dönüşmesi (vb.).<br>
+             • <strong>Hz. İsa:</strong> Allah’ın izniyle ölüleri diriltmesi (vb.).<br>
+             • <strong>Hz. Salih:</strong> Kayadan dişi deve çıkması.<br>
+             • <strong>Hz. Süleyman:</strong> (Kur’an’daki anlatımlarda) bazı varlıklarla ilgili olağanüstü hâller/iletişim (ders kitaplarında genellikle “karıncanın sözünü anlaması” örneği verilir).</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">10</span><span class="qtext">Peygamberlerin özelliklerinden sıdk, emanet, fetanet, ismet, tebliğ ne anlama gelir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong><br>
+            • <strong>Sıdk:</strong> Dürüstlük, doğru sözlülük.<br>
+            • <strong>Emanet:</strong> Güvenilirlik.<br>
+            • <strong>Fetanet:</strong> Akıllı ve zeki olmak.<br>
+            • <strong>İsmet:</strong> Allah tarafından günahtan korunmuş olmak.<br>
+            • <strong>Tebliğ:</strong> Vahyi eksiksiz iletmek.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">11</span><span class="qtext">Peygamberlerin görevlerinden tebliğ, tebyin, temsil, inzar, tebşir, tezkiye nedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong><br>
+            • <strong>Tebliğ:</strong> Vahyi insanlara iletmek.<br>
+            • <strong>Tebyin:</strong> Allah’ın emir ve yasaklarını açıklamak.<br>
+            • <strong>Temsil:</strong> Dinî hayatı yaşayarak örnek olmak.<br>
+            • <strong>İnzar:</strong> Uyarma (kötülüklerden sakındırma).<br>
+            • <strong>Tebşir:</strong> Müjdeleme (iyiliğe/cennete teşvik).<br>
+            • <strong>Tezkiye:</strong> Kötü huylardan arındırmaya, ahlaken temizlenmeye rehberlik etmek.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">12</span><span class="qtext">Vahiy hangi mesajları vermektedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Başta <strong>inanç</strong>, <strong>ibadet</strong> ve <strong>ahlak</strong> konuları olmak üzere, bireysel ve toplumsal hayatı düzenleyen mesajlar verir; insanları doğru yola yönlendirir.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">13</span><span class="qtext">İlahi kitap nedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Allah’ın (cc) peygamberlere vahiy yoluyla gönderdiği, insanlara yol gösteren kitaplardır.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">14</span><span class="qtext">Dört ilahi kitap ve onların gönderildiği peygamberler ve bu kitapların dilleri ve toplumları nelerdir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong><br>
+            • <strong>Tevrat:</strong> Hz. Musa – İbranice – İsrailoğulları.<br>
+            • <strong>Zebur:</strong> Hz. Davud – İbranice – İsrailoğulları.<br>
+            • <strong>İncil:</strong> Hz. İsa   – Aramice  – İsrailoğulları.<br>
+            • <strong>Kur’an-ı Kerim:</strong> Hz. Muhammed (sav) – Arapça – Öncelikle Arap toplumu, mesajı ise tüm insanlık.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">15</span><span class="qtext">Suhuf nedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Bazı peygamberlere gönderildiği bildirilen, ilahi mesajlar içeren <strong>sayfalardır</strong>.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">16</span><span class="qtext">Hz. Adem, Hz. Şit, Hz. İdris, Hz. İbrahim'e kaçar suhuf gönderilmiştir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap (yaygın öğretim bilgisi):</strong><br>
+            • Hz. Âdem: 10 suhuf<br>
+            • Hz. Şit: 50 suhuf<br>
+            • Hz. İdris: 30 suhuf<br>
+            • Hz. İbrahim: 10 suhuf</p>
+          <div class="note"><strong>Not:</strong> Bu sayılar yaygın rivayetlere dayalıdır; farklı rivayet değerlendirmeleri bulunabilir.</div>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">17</span><span class="qtext">Kur'an-ı Kerim hangi ayda gönderilmiştir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> <strong>Ramazan</strong> ayında (Kadir Gecesi’nde başlayan vahiy süreciyle).</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">18</span><span class="qtext">Hatemü'l-Enbiya nedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> “Peygamberlerin sonuncusu” anlamına gelir; Hz. Muhammed (sav) için kullanılır.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">19</span><span class="qtext">Bu dört ilahi kitabın birbirinden farkları nelerdir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Gönderildikleri <strong>peygamber</strong>, <strong>dönem</strong> ve <strong>toplum</strong> farklıdır; kapsam ve ayrıntı düzeyi değişebilir. Kur’an-ı Kerim ise İslam inancına göre <strong>son ilahi kitaptır</strong> ve mesajı tüm insanlığa yöneliktir. Değitirilememiş tek ilahi kitaptır. </p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">20</span><span class="qtext">Felak kelime anlamı olarak ne anlama gelir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> “<strong>Sabah aydınlığı</strong> / <strong>tan</strong> (yarılma, aydınlığın ortaya çıkışı)” anlamına gelir.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">21</span><span class="qtext">Felak suresinde Allah'a nelerden sığınılmaktadır?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Yaratılanların şerrinden, karanlık çöktüğünde gecenin şerrinden, üfleyenlerin (büyücülerin) şerrinden ve hasetçinin şerrinden Allah’a sığınılır.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">22</span><span class="qtext">Mucize nedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Peygamberlerin peygamberliklerini ispat için Allah’ın (cc) izniyle gösterdikleri olağanüstü olaylardır.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">23</span><span class="qtext">Ramazan ayı ile alakalı fitre, iftar, imsak, mukabele, oruç, ramazan, sahur, teravih ne anlamlara gelir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong><br>
+            • <strong>Fitre:</strong> Ramazan’da ihtiyaç sahiplerine verilen sadaka (fıtır sadakası).<br>
+            • <strong>İftar:</strong> Oruç açma vakti/yemeği.<br>
+            • <strong>İmsak:</strong> Oruca başlama zamanı (yeme-içmenin bittiği vakit).<br>
+            • <strong>Mukabele:</strong> Ramazan’da Kur’an’ı karşılıklı/beraber okuma geleneği.<br>
+            • <strong>Oruç:</strong> İmsaktan iftara yeme-içme ve orucu bozan şeylerden uzak durma ibadeti.<br>
+            • <strong>Ramazan:</strong> Hicrî takvimin 9. ayı.<br>
+            • <strong>Sahur:</strong> İmsaktan önce yenilen yemek/vakit.<br>
+            • <strong>Teravih:</strong> Ramazan gecelerinde kılınan nafile namaz.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">24</span><span class="qtext">Ramazan ayı ile Kur'an ibadetinin ne alakası var?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Kur’an-ı Kerim’in vahyinin başlaması Ramazan ayındadır; bu nedenle Ramazan’da Kur’an okuma (mukabele vb.) daha çok yapılır.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">25</span><span class="qtext">İslam'ın şartları nelerdir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Kelime-i şehadet, namaz, oruç, zekât, hac.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">26</span><span class="qtext">Kur'an-ı Kerim'in gönderilen ilk cümleleri hangi gecede, hangi surenin içerisinde ve kaç tane cümle gönderilmiştir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Vahyin başlangıcı <strong>Kadir Gecesi</strong> ile ilişkilendirilir; ilk ayetler <strong>Alak Suresi</strong> içindedir ve yaygın bilgiye göre <strong>ilk 5 ayet</strong> (cümle) indirilmiştir.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">27</span><span class="qtext">Ramazan ayı hangi takvimde yer alır?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> <strong>Hicrî (kamerî)</strong> takvimde yer alır.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">28</span><span class="qtext">Kadir Gecesi hangi surede anlatılır?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> <strong>Kadir Suresi</strong>nde.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">29</span><span class="qtext">Orucun farz olması için gerekli olan şartlar nelerdir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Müslüman olmak, akıllı olmak, ergenlik çağına girmiş olmak (bâliğ), oruç tutmaya gücü yetmek ve yolcu/çok hasta gibi mazeret hâllerinin bulunmaması (temel çerçeve).</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">30</span><span class="qtext">Oruçlu olan bir kişinin dikkat etmesi gereken şeyler nelerdir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> İmsaktan iftara kadar yeme-içmeden ve orucu bozan şeylerden uzak durmak; kötü söz, kavga, yalan gibi davranışlardan kaçınmak; ibadet ve güzel ahlaka dikkat etmek.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">31</span><span class="qtext">Oruç çeşitlerinde yer alan farz oruç hangi oruçtur, vacip oruç hangi oruçtur, sünnet oruç hangi oruçtur?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong><br>
+            • <strong>Farz oruç:</strong> Ramazan orucu.<br>
+            • <strong>Vacip oruç:</strong> Adak (nezir) orucu; ayrıca bozulan nafile orucun kazası gibi örnekler verilir.<br>
+            • <strong>Sünnet (nafile) oruç:</strong> Pazartesi-Perşembe, Arefe, Âşûrâ, Şevval’de 6 gün vb. (öğretim düzeyine göre örneklenir).</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">32</span><span class="qtext">Fidye nedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Oruç tutamayan (özellikle sürekli hastalık/yaşlılık gibi) kişilerin her gün için ihtiyaç sahiplerine verdikleri bedeldir.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">33</span><span class="qtext">Oruç ibadetinin bireysel ve toplumsal faydaları nelerdir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> <strong>Bireysel:</strong> Sabır, irade, nefis terbiyesi, şükür, empati gelişir. <strong>Toplumsal:</strong> Yardımlaşma artar, ihtiyaç sahiplerini anlama güçlenir, toplumsal dayanışma güçlenir.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">34</span><span class="qtext">İftar duası ne zaman yapılır?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> <strong>İftar vaktinde</strong>, oruç açarken/iftar öncesi veya hemen iftar sırasında yapılır.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">35</span><span class="qtext">İftar duasının anlamı nedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Allah’a şükredip orucu O’nun rızası için tuttuğunu ifade etmek; affını ve kabulünü dilemek anlamını taşır.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">36</span><span class="qtext">Kaza orucu nedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Ramazan’da tutulamayan oruçların daha sonra gününe gün tutulmasıdır.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">37</span><span class="qtext">Kefaret orucu nedir?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap:</strong> Ramazan orucunu bilerek ve mazeretsiz bozmanın sonucunda, belirli şartlarda tutulan telafi orucudur (genellikle peş peşe uzun süre oruç tutma şeklinde olur).</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="qno">38</span><span class="qtext">Hangi durumlar orucu bozar, hangi durumlar orucu bozmaz?</span></summary>
+        <div class="ans">
+          <p><strong>Cevap (temel düzey):</strong><br>
+            • <strong>Bozar:</strong> Bilerek yemek-içmek, bilerek kusmak, bilerek ilaç/serum vb. almak.<br>
+            • <strong>Bozmaz (genel örnekler):</strong> Unutarak yiyip içmek, istem dışı kusma, diş fırçalarken macunu yutmamak, kan vermek gibi konular mezhepsel/ayrıntılı ele alınabilir.</p>
+          <div class="note"><strong>Not:</strong> Bu başlık ayrıntıda mezhep/ilmihal farklılıkları içerebilir; okul seviyesinde genellikle “bilerek yeme-içme” gibi ana örnekler esas alınır.</div>
+        </div>
+      </details>
+
+    </div>
+
+
+  <script>
+    function toggleAll(open) {
+      document.querySelectorAll('#qa details').forEach(d => d.open = open);
+    }
+  </script>
+</body>
+</html>
